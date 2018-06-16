@@ -1,6 +1,8 @@
 package FSMServer;
 
-public class SingleText implements Text {
+import java.io.Serializable;
+
+public class SingleText implements Text, Serializable {
 	String text;
 	public SingleText( String text ) {
 		this.text = text;

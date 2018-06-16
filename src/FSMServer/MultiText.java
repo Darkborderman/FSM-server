@@ -1,6 +1,8 @@
 package FSMServer;
 
-public class MultiText implements Text {
+import java.io.Serializable;
+
+public class MultiText implements Text, Serializable{
 	String text[];
 	public MultiText( String[] text ) {
 		this.text = text;

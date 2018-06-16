@@ -1,7 +1,8 @@
 package FSMServer;
+import java.io.Serializable;
 import java.util.Date;
 
-public class Mail {
+public class Mail implements Serializable{
 	private String from;
 	private String to;
 	private String title;

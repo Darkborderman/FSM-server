@@ -1,8 +1,9 @@
 package FSMServer;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Task extends Mail {
+public class Task extends Mail implements Serializable{
 	private Text[] text;
 	private int interval;
 	public Task( String from, String to, String title, Text[] text, Date sendDate, int interval ) {

@@ -1,8 +1,9 @@
 package FSMServer;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public abstract class Head {
+public abstract class Head implements Serializable{
 	private String id;
 	private String from;
 	private String to;
